@@ -9,8 +9,8 @@ namespace helloazurestoragedemo
     {
         static async Task Main(string[] args)
         {
-            //await GetSystemProperties();
-            await GetName();
+            await GetSystemProperties();
+            //await GetName();
         }
 
         private static async Task GetName()
@@ -35,18 +35,18 @@ namespace helloazurestoragedemo
             Console.WriteLine($"Last modified: {container.Properties.LastModified.ToString()}");
             Console.WriteLine($"Lease Status: {container.Properties.LeaseStatus.ToString()}");
 
-            container.Metadata.Add("department", "Technical");
-            container.Metadata["category"] = "Knowledge Base";
-            container.Metadata.Add("docType", "txtDocuments");
+            //container.Metadata.Add("department", "Technical");
+            //container.Metadata["category"] = "Knowledge Base";
+            //container.Metadata.Add("docType", "txtDocuments");
 
-            container.SetMetadata();
+            //container.SetMetadata();
 
-            container.FetchAttributes();
-            foreach (var item in container.Metadata)
-            {
-                Console.WriteLine($"Key: {item.Key}");
-                Console.WriteLine($"Value: {item.Value}");
-            }
+            //container.FetchAttributes();
+            //foreach (var item in container.Metadata)
+            //{
+            //    Console.WriteLine($"Key: {item.Key}");
+            //    Console.WriteLine($"Value: {item.Value}");
+            //}
         }
     }
 }
