@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helloazurestoragedemo", "helloazurestoragedemo.csproj", "{69A4DB72-163A-4EC1-A097-B38404CA6FCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69A4DB72-163A-4EC1-A097-B38404CA6FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A4DB72-163A-4EC1-A097-B38404CA6FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A4DB72-163A-4EC1-A097-B38404CA6FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A4DB72-163A-4EC1-A097-B38404CA6FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
