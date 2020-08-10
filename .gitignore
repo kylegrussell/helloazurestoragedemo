@@ -1,3 +1,7 @@
+# ignore appsettings
+**/AppSettings.json
+
+
 # globs
 Makefile.in
 *.userprefs
